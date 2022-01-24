@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>BlackJack Game</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+        </style>
+</head>
+<body>
+    <h1 class="h1-title">Player Vs. Player BlackJack Game</h1>
+    <div class="deck-container">
+        <nav class="game-nav">
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+
+            <div class="buttons">
+            <button class="start">START</button>
+            <button class="hit">HIT</button>
+            <button class="stay">STAY</button>
+            </div>
+        
+        </nav>
+
+        <main class="game-main">
+
+            <div class="player-icon">
+                <h2 class="player1-title">Player 1 </h2>
+            </div>
+            <div class="player1-score"> <h3>Total Score: </h3> <span id="player1TotalScore">0</span></div>
+            <div class="player-card-container" id="player1-card-container"> </div>
+
+            <div class="empty-div">
+                <h2 class="player2-title">Player 2 </h2>
+            </div>
+            <div class="player2-score"> <h3>Total Score: </h3><span id="player2TotalScore">0</span> </div>
+            <div class="player-card-container" id="player2-card-container"> </div>
+
+        </main>
+
+        <footer class="game-footer">
+            <div class="winning-message"> </div>  
+        </footer>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
