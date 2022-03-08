@@ -18,7 +18,7 @@ JavaScript, HTML, CSS.
 
 ## Getting Started
 
-Curious, lets play the <a href="https://jceeeeee.github.io/BlackJackGame/">game</a>!
+Curious, lets play the <a href="https://jcheung123.github.io/BlackJackGame/">game</a>!
 
 ## Next Steps
 
